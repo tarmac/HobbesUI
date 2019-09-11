@@ -1,0 +1,66 @@
+.mdl-layout__header {
+  background-color: #ffffff;
+}
+
+.mdl-layout__header .mdl-navigation .mdl-navigation__link {
+  line-height: 18px;
+  text-align: center;
+}
+
+.mdl-layout__header .mdl-navigation .mdl-navigation__link i {
+  font-size: 22px;
+  transform: translateX(4px);
+}
+
+.mdl-layout__header-row {
+  padding: 0 16px;
+}
+
+.presentation-header {
+  background-color: #4c4c4c;
+  height: 400px;
+  margin: 0 0 32px;
+  width: 100%;
+}
+
+.descriptive {
+  background-color: #4c4c4c;
+  height: 200px;
+}
+
+.descriptive .descriptive-card {
+  width: 100%;
+}
+
+.descriptive .descriptive-card .mdl-card__supporting-text {
+  background-color: #bdbdbd;
+}
+
+.detail {
+  height: 350px;
+  margin: 15px 0;
+}
+
+.detail .mdl-cell.right{
+  text-align: right;
+}
+
+.detail .detail-image {
+  background-color: #9c9c9c;
+}
+
+.detail .detail-card {
+  align-self: flex-end;
+  color: #4c4c4c;
+  font-size: 24px;
+}
+
+.quote {
+  margin: 25px 0 35px;
+}
+
+.quote .quote-detail {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 32px;
+}
