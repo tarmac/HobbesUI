@@ -29,13 +29,39 @@
 
 .presentation-header {
   background-color: #4c4c4c;
-  height: calc(100vh - 49px - 56px);
+  height: 300px;
   margin: 0 0 32px;
   width: 100%;
+  padding: 45px 20px 15px;
+  display: flex;
+}
+
+.presentation-header .presentation-header--title-intro {
+  color: #fafafa;
+  font-size: 26px;
+  line-height: 36px;
+}
+
+.presentation-header .presentation-header--img {
+  object-fit: contain;
+  width: 200px;
+  transform: translateX(-18px);
+}
+
+@media (min-height: 760px) {
+  .presentation-header {
+    height: 400px;
+  }
+}
+
+@media (min-height: 1024) {
+  .presentation-header {
+    height: 600px;
+  }
 }
 
 .quick-intro {
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .descriptive {
@@ -89,11 +115,32 @@
   font-size: 24px;
 }
 
+@media (min-width: 680px) {
+  .detail-card {
+    flex-direction: row;
+    width: 80%;
+  }
+
+  .detail-card.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .detail .detail-card--text {
+    align-self: flex-end;
+    flex-grow: 2;
+    width: auto;
+  }
+
+  .detail .detail-card.reverse .detail-card--text {
+    text-align: right;
+  }
+}
+
 .quote {
   margin: 25px 0 35px;
 }
 
-.quote .quote-detail {
+.quote .quote--detail {
   margin: 0 auto;
   text-align: center;
   font-size: 32px;
