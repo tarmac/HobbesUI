@@ -69,6 +69,7 @@
 }
 
 .descriptive .descriptive-card {
+  border: solid 1px #efefef;
   width: 100%;
   height: 300px;
 }
